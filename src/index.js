@@ -10,6 +10,7 @@ app.use(morgan("dev"));
 app.use(express.json());
 
 //Routes
+app.use("/api/task",require("./routes/task.routes"));
 
 //Static Files
 
